@@ -3,6 +3,8 @@
     --preta: #141414;
 }
 
+/*elementos base*/
+
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +14,7 @@
 body {
     background: var(--preta);
     font-family: 'Times New Roman', 'Times New Roman', Times, serif;
-
+    color: white;
 }
 
 header .container {
@@ -38,3 +40,28 @@ header nav a{
 header nav a:hover{
     color: #fff;
 }
+
+/*filme principal*/
+
+.filme-principal {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/dark-capa.jpg'); /*criando uma camada de cor para não ofuscar o texto*/
+
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.filme-principal .descricao {
+    margin-bottom: 40px;
+}
+
+.titulo {
+    font-size: 40px;
+}
+
