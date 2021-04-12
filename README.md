@@ -1,2 +1,2 @@
 # interface-netflix
-Desenvolvendo interface da Netflix aplicando os conhecimentos iniciais com html &amp; css e javascript
+Desenvolvendo interface da Netflix aplicando os conhecimentos iniciais com html &amp; css e jQuery
