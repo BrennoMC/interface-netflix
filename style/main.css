@@ -13,7 +13,7 @@
 
 body {
     background: var(--preta);
-    font-family: 'Times New Roman', 'Times New Roman', Times, serif;
+    font-family: 'Arial', Times, serif;
     color: white;
 }
 
@@ -47,7 +47,7 @@ header nav a:hover{
     font-size: 16px;
     background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/dark-capa.jpg'); /*criando uma camada de cor para não ofuscar o texto*/
 
-    height: 400px;
+    height: 600px;
     background-size: cover;
 
     display: flex;
@@ -81,6 +81,15 @@ header nav a:hover{
     transition: .3s ease all;
 }
 
+.container {
+    margin-left: 20px;
+
+}
+
+.filme-principal .container {
+    width: 80%;
+}
+
 .botao:hover {
     background-color: white;
     color: black
@@ -95,3 +104,20 @@ header nav a:hover{
     width: 100%;
     display: block;
 }
+
+.carrosel-filmes {
+    margin-top: 5px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.subtitulo {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.carrosel-filmes i{
+    color: orangered;
+}
+
